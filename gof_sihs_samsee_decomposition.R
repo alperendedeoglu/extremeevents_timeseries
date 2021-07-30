@@ -5,7 +5,6 @@ library(ggplot2)
 options(scipen=999)
 
 getwd()
-setwd("C:/Users/HanWIS/Desktop/Master Thesis/Datasets/")
 data<-read.csv(file="sinus.csv",  sep = "," , dec="." , header=T, stringsAsFactors=FALSE,check.names=F)  #Eng Hepsi
 data = setDT(data)
 
